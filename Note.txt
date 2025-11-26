@@ -1,0 +1,11 @@
+
+/opt/automq/kafka/bin/kafka-topics.sh \
+--bootstrap-server localhost:9092 \
+--create \
+--topic user_events \
+--partitions 3 \
+--replication-factor 1 \
+--config automq.table.topic.enable=true \
+--config automq.table.topic.namespace=default \
+--config automq.table.topic.schema.type=schema \
+--config automq.table.topic.commit.interval.ms=60000

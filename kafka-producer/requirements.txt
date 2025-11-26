@@ -1,0 +1,17 @@
+confluent-kafka>=2.5
+fastavro
+avro
+attrs
+certifi
+requests
+urllib3
+idna
+charset-normalizer
+python-dateutil
+six
+furl
+orderedmultidict
+httpx
+cachetools
+authlib
+faker
